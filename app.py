@@ -76,11 +76,10 @@ def predict():
   
     
   if input_pred[0]==1:
-      result= "Review is Positive"
+      result= "Spam"
   else:
-      result="Review is negative"
+      result="Not Spam"
     
- 
             
   return render_template('predict.html', prediction_text='Model  has predicted  : {}'.format(result))
     
@@ -118,9 +117,9 @@ def predict1():
   
     
   if input_pred[0]==1:
-      result= "Review is Positive"
+      result= "Spam"
   else:
-      result="Review is negative"
+      result="Not Spam"
     
  
             
@@ -162,9 +161,10 @@ def predict2():
   
     
   if input_pred[0]==1:
-      result= "Review is Positive"
+      result= "Spam"
   else:
-      result="Review is negative"
+      result="Not Spam"
+    
     
  
             
@@ -204,9 +204,9 @@ def predict3():
   
     
   if input_pred[0]==1:
-      result= "Review is Positive"
+      result= "Spam"
   else:
-      result="Review is negative"
+      result="Not Spam"
     
  
             
@@ -247,9 +247,9 @@ def predict4():
   
     
   if input_pred[0]==1:
-      result= "Review is Positive"
+      result= "Spam"
   else:
-      result="Review is negative"
+      result="Not Spam"
     
  
             
